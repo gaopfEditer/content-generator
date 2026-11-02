@@ -1,0 +1,24 @@
+# 四方向可同时 enabled: true；互不抢目录
+timezone: Asia/Shanghai
+directions:
+  crypto:
+    name: 币圈
+    enabled: true
+    path: directions/crypto
+    tags: [crypto, web3, exchange-culture]
+  invest:
+    name: 投资
+    enabled: true
+    path: directions/invest
+    tags: [invest, macro, markets]
+    # 禁止：喊单、目标价、买卖建议
+  scitech:
+    name: 科技
+    enabled: true
+    path: directions/scitech
+    tags: [ai-products, gadgets, consumer-tech]
+  engineering:
+    name: 技术
+    enabled: true
+    path: directions/engineering
+    tags: [dev, infra, scraping, tooling]

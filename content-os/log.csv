@@ -1,0 +1,124 @@
+time,content_id,action,from_status,to_status,summary,file
+2026-09-29T14:56:00+08:00,SYSTEM,init,,,系统初始化：创建目录、模板、索引、日志、来源清单和内容日历,README.md
+2026-09-29T14:56:30+08:00,C-20260929-01,create,,inbox,创建选题：过年把三代人串起来,topics/C-20260929-01-过年把三代人串起来/brief.md
+2026-09-29T14:56:30+08:00,C-20260929-01,status,inbox,researching,填写 brief 并开始研究；只读检查 task-os 未找到相关内容,topics/C-20260929-01-过年把三代人串起来/research.md
+2026-09-29T14:56:48+08:00,C-20260929-01,status,researching,drafting,写入约 800 字大纲；未发布，未核实内容标【待核】,topics/C-20260929-01-过年把三代人串起来/draft.md
+2026-09-29T15:19:29+08:00,SYSTEM,edit,,,README.md 开头写入定位，新增「待用户提供」两节（资讯平台名单、写作模板名单）,README.md
+2026-09-29T15:19:29+08:00,C-20260929-01,status,drafting,archived,初始化示例，非业务选题（按用户要求直接归档，跳过中间状态）,index.md
+2026-09-29T15:22:51+08:00,SYSTEM,edit,,,"重写 sources.md：删去 8 个泛来源位，改为 4 类币圈来源（市场价格与结构、监管与传统金融、安全与风险事件、一手项目/研究）各 3 个待确认占位，写明收/不收规则",sources.md
+2026-09-29T15:23:12+08:00,SYSTEM,create,,,"新建 filter.md：三层漏斗（排除/四件事/五维打分满分 8）、维度对照表、每日 25 分钟流程；watchlist.md、thesis.md 待用户提供",filter.md
+2026-09-29T15:23:24+08:00,SYSTEM,edit,,,"README.md 小改：sources.md 描述改为四类币圈来源，目录结构加入 filter.md，操作规则第 10 条加入按 filter.md 筛选",README.md
+2026-09-29T15:23:37+08:00,C-20260929-01,edit,archived,archived,"状态标注补充为「archived（初始化示例，非业务选题，非币圈方向）」，index.md 与 brief.md 状态行同步",topics/C-20260929-01-过年把三代人串起来/brief.md
+2026-09-29T15:23:57+08:00,C-20260929-02,create,,inbox,"创建选题：币圈日报（当天序号 01 已被 C-20260929-01 占用，故用 02）",topics/C-20260929-02-币圈日报/brief.md
+2026-09-29T15:23:57+08:00,C-20260929-02,status,inbox,researching,"填写 brief（读者/渠道/关联任务待定，禁止买卖建议），开始 24 小时试跑研究",topics/C-20260929-02-币圈日报/research.md
+2026-09-29T15:32:41+08:00,C-20260929-02,research,researching,researching,"24 小时试跑（约 2026-09-28 15:00 至 09-29 15:00 HKT）：29 条候选，≥7 分 5 条，写入 research.md；来源仅试跑，未确认",topics/C-20260929-02-币圈日报/research.md
+2026-09-29T15:32:55+08:00,SYSTEM,edit,,,"index.md 增加「系统文件」小节，记录 sources.md、filter.md、README.md 最后更新时间；watchlist.md、thesis.md 待用户提供",index.md
+2026-09-29T16:53:03+08:00,SYSTEM,edit,,,sources.md 登记 REG-01 Foresight News 为已确认（用户确认）,sources.md
+2026-09-29T16:55:06+08:00,SYSTEM,edit,,,sources.md REG-01 抓取方式改为公开只读接口（网页和浏览器均 403）,sources.md
+2026-09-29T17:05:13+08:00,C-20260929-02,research,researching,researching,"试跑 2：Foresight News（REG-01）快讯 2026-09-28 17:11 至 09-29 16:50 HKT 共 93 条（分页接口核对无缺漏）；第一层排除 30、第二层丢弃 25、≥7 分 12 条/6 件事、4–6 分 23 条、≤3 分 3 条；站方重要 28 条中 8 条进 ≥7；与试跑 1 五条合并，新增 BitMine",topics/C-20260929-02-币圈日报/research.md
+2026-09-30T21:34:07+08:00,SYSTEM,create,,,新建 categories.md：用户提供的 14 个大类、79 个小类,categories.md
+2026-09-30T21:34:07+08:00,SYSTEM,edit,,,filter.md 增加「分类标注」规则；README 规则第 10 条加分类要求,filter.md;README.md
+2026-09-30T21:40:46+08:00,C-20260929-02,research,researching,researching,"试跑 2 按 categories.md 补标分类：93 条全部标主小类（副小类≤2），候选表加「主小类/副小类」两列；新增分类汇总（13 个大类有条目，14. 组合与策略为 0；未归类 6 条：F20、F35、F41、F62、F68、F79）；≥7 分 6 件事按大类分组（监管 2、市场结构 1、安全 1、人物机构 2）；分数和去向不变",topics/C-20260929-02-币圈日报/research.md
+2026-10-02T09:27:29+08:00,SYSTEM,create,,,新建 resources.md 资源收藏列表（A–D 共 10 组，空表待用户补充）,resources.md
+2026-10-02T09:29:36+08:00,SYSTEM,edit,,,resources.md「A. 项目库 - 情报 / 信息源」新增 19 条（用户提供）,resources.md
+2026-10-03T23:35:00+08:00,C-20261003-01,create,,inbox,"创建选题：SEC 批准 Cboe 上市 6 只 3 倍杠杆 ETP（线索来自交易观察员监控页 data.json，updated_utc8 2026-10-03 23:20:22；24h 短名单 5 条，本条 filter 8 分）",topics/C-20261003-01-SEC批准3倍杠杆加密ETP/brief.md
+2026-10-03T23:35:00+08:00,C-20261003-01,status,inbox,researching,"填写 brief（读者=X 中文币圈用户，形式=短讯/X 图文贴文，channel=X，截止=无（样稿），related_task 待定），开始核实",topics/C-20261003-01-SEC批准3倍杠杆加密ETP/brief.md
+2026-10-03T23:35:00+08:00,C-20261003-01,research,researching,researching,"research.md 写入短名单 5 条及打分、选题理由、素材 R-01–R-09（SEC 批准令原文已存档 sources/，S-1 与 EDGAR 截至 23:32 HKT 无生效记录）；事实/观点/待核实分开",topics/C-20261003-01-SEC批准3倍杠杆加密ETP/research.md
+2026-10-03T23:35:00+08:00,C-20261003-01,status,researching,drafting,"写入 X 样稿：主帖加权 278/280，可选跟帖 3 条，配图方案 2 张，自查清单；未发布",topics/C-20261003-01-SEC批准3倍杠杆加密ETP/draft.md
+2026-10-03T23:35:00+08:00,C-20261003-01,review,drafting,drafting,"review.md 填写发布前自查（对照 brief）；状态仍为 drafting",topics/C-20261003-01-SEC批准3倍杠杆加密ETP/review.md
+2026-10-03T23:35:00+08:00,SYSTEM,edit,,,index.md 新增 C-20261003-01 行,index.md
+2026-10-04T22:57:26+08:00,C-20261004-01,create,,inbox,"创建选题：本周代币解锁 ENA/HYPE/KGEN（线索来自交易观察员解锁页 events/unlock.json，updated 2026-10-04 17:49:13 HKT；该页无分数字段，按占流通/美元值/cliff 排序后用 filter.md 打分，短名单 5 个代币）",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/brief.md
+2026-10-04T22:57:26+08:00,C-20261004-01,status,inbox,researching,"填写 brief（读者=X 中文币圈用户，形式=短讯/3 条独立 X 图文贴文，channel=X，截止=无（样稿），related_task 待定），开始核实",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/brief.md
+2026-10-04T22:57:26+08:00,C-20261004-01,research,researching,researching,"research.md 写入数据源与分数说明、短名单 5 个代币及打分（ENA 7/HYPE 6/KGEN 4/LA 4/RAIN 2）、解锁页数据质量问题 10 条、素材 R-01–R-18（官方博客、SEC 8-K、Tokenomist、DefiLlama、CoinGecko 快照已存档 sources/）；事实/观点/待核实分开",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/research.md
+2026-10-04T22:57:26+08:00,C-20261004-01,status,researching,drafting,"写入 X 样稿：ENA 主帖 278/280+跟帖 2 条，HYPE 主帖 277/280+跟帖 1 条，KGEN 主帖 260/280+跟帖 1 条（备选），配图方案 3 张，自查清单；未发布",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/draft.md
+2026-10-04T22:57:26+08:00,C-20261004-01,review,drafting,drafting,"review.md 填写发布前自查（对照 brief）；状态仍为 drafting",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/review.md
+2026-10-04T22:57:26+08:00,SYSTEM,edit,,,index.md 新增 C-20261004-01 行,index.md
+2026-10-05T05:59:51+08:00,SYSTEM,edit,,,"sources.md 登记 MKT-01 交易观察员已核事件表（trading-watch）为已确认（确认日期 2026-10-05，经出海大师转达用户确认）；原为空占位，未覆盖其他来源；字段按 REG-01 补齐类型、更新频率、可信度，另加规则、读取方式",sources.md
+2026-10-05T06:02:46+08:00,C-20261005-01,create,,inbox,"创建选题：事件定价周表 #1（解锁篇）（当天无已有 ID，用 01；数据 MKT-01 已核表 /workspace/trading-watch/unlocks_2026-10-01.csv，核对 14 行、24 列、时间列为 UTC+8）",topics/C-20261005-01-事件定价周表1-解锁篇/brief.md
+2026-10-05T06:02:46+08:00,C-20261005-01,status,inbox,researching,"填写 brief（栏目=事件定价，主小类 fundamental.unlock、副小类 calendar.unlock，形式=深度/长文，channel=X 长推+币安广场，related_task 待任务管家创建，截止待定）；CSV 快照存 sources/",topics/C-20261005-01-事件定价周表1-解锁篇/brief.md
+2026-10-05T06:04:06+08:00,C-20261005-01,research,researching,researching,"research.md 写入 trading-watch 清点、CSV 行列核对、主表、计数观察、与 C-20261004-01 重叠检查（正文币种无重合）、XPL 两种口径（Tokenomist 09-25 20:00/17.6 亿/63.2% vs DefiLlama 13:48/1.89B/41.79%）、素材 R-01–R-08、待核 6 条",topics/C-20261005-01-事件定价周表1-解锁篇/research.md
+2026-10-05T06:04:52+08:00,C-20261005-01,status,researching,drafting,"写入长推/币安广场长文（加权 2374，需 X Premium）+ ≤280 短版 274 与跟帖 251/151 + 配图方案 1 张（markdown 图源表）+ 不合并说明 + 自查清单；未发布",topics/C-20261005-01-事件定价周表1-解锁篇/draft.md
+2026-10-05T06:05:28+08:00,SYSTEM,create,,,"新建 templates/事件定价周表.md（深度/长文；X 长推 / 币安广场）与 templates/README.md 模板清单",templates/事件定价周表.md;templates/README.md
+2026-10-05T06:05:37+08:00,C-20261005-01,review,drafting,drafting,"review.md 填写发布前自查，新增空节「发布后 24 小时互动数据（基线）」待发布后填写；状态仍为 drafting",topics/C-20261005-01-事件定价周表1-解锁篇/review.md
+2026-10-05T06:05:37+08:00,SYSTEM,edit,,,"README.md 写作模板名单登记 templates/事件定价周表.md，目录结构加入该模板与 templates/README.md",README.md
+2026-10-05T06:05:47+08:00,SYSTEM,edit,,,"index.md 新增 C-20261005-01 行；系统文件表更新 sources.md（已确认 2 个）、README.md，新增 templates/README.md 行",index.md
+2026-10-05T11:41:08+08:00,SYSTEM,edit,,,"README.md 操作规则新增第 14 条单篇币种上限：任一资讯稿最多提及 7 个币种，默认只放最重要的 5 个（2026-10-05 用户新规）",README.md
+2026-10-05T11:41:08+08:00,SYSTEM,edit,,,"filter.md 第三层新增「打分后：币种上限」4 步，每日流程 15–20 分钟一行加入该步骤",filter.md
+2026-10-05T11:41:08+08:00,SYSTEM,edit,,,"templates/事件定价周表.md 写入币种上限：主表只放占流通前 5，样本行写「本周 N 个{事件}，按占流通取前 5」，观察只描述这 5 行，配图同主表；段落顺序和标题不变",templates/事件定价周表.md
+2026-10-05T11:41:08+08:00,C-20261005-01,edit,drafting,drafting,"按币种上限改稿（原文件原地修改）：主表/观察/短版/图源表只留占流通前 5（XPL 63.2、BIGTIME 13.34、CARDS 10.62、H 7.34、GUN 6.56，已对照 CSV），n=14 保留；观察重数为解锁后 3 涨 2 跌、前 7 天 3 涨 2 跌、相对 BTC 3 正 2 负；结论句、XPL 段、来源、脚注保留；加权重算：长推 2374→1910，短版 274→277，跟帖 251/151 不变",topics/C-20261005-01-事件定价周表1-解锁篇/draft.md
+2026-10-05T11:41:08+08:00,C-20261004-01,review,drafting,drafting,"按币种上限检查：3 条帖子正文只涉及 ENA、HYPE、KGEN 共 3 个币，符合规则，未改动",topics/C-20261004-01-本周解锁ENA-HYPE-KGEN/draft.md
+2026-10-05T11:41:08+08:00,SYSTEM,edit,,,"index.md 更新 C-20261005-01 状态说明；系统文件表更新 filter.md、README.md，新增 templates/事件定价周表.md 行",index.md
+2026-10-05T17:21:18+08:00,C-20261005-02,create,,inbox,创建选题：早报 1005（今日测试批次 3 篇之 1；index.md 当天已有 01，按顺序用 02）,topics/C-20261005-02-早报1005/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-02,status,inbox,researching,填写 brief（形式=短讯/早报固定四段，主小类 calendar.unlock，副小类 fundamental.buyback、onchain.whale；channel 待定；related_task 待任务管家创建）；看板 data.json、events/*.json、CoinGecko 快照存 sources/,topics/C-20261005-02-早报1005/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-02,research,researching,researching,research.md 写入三篇共用候选筛选表（看板 E1–E9、事件页 X1–X8，旧闻二次报道剔除）、ENA Safe 链上流向（Bybit 转出 117.58M、10/5 16:46 转入自建合约 117.5M）、HYPE 援助基金 24h 回购核算、ETH 老地址充值；待核 3 条；Foresight API 403,topics/C-20261005-02-早报1005/research.md
+2026-10-05T17:21:18+08:00,C-20261005-02,status,researching,drafting,写入早报正文 3 条（ENA 7 分、ETH 7 分、HYPE 备选 6 分），汉字 468，配图方案、来源清单、自查清单；未发布,topics/C-20261005-02-早报1005/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-02,status,drafting,reviewing,测试批次样稿完成，交用户评审质量；未选平台、未发布,topics/C-20261005-02-早报1005/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-02,review,reviewing,reviewing,review.md 填写发布前自查，含空节「发布后 24 小时互动数据（基线）」,topics/C-20261005-02-早报1005/review.md
+2026-10-05T17:21:18+08:00,C-20261005-03,create,,inbox,创建选题：今明解锁与上下架提醒（ENA、POWER；今日测试批次 3 篇之 2）,topics/C-20261005-03-今明解锁与上下架-ENA-POWER/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-03,status,inbox,researching,填写 brief（主小类 calendar.unlock，副小类 fundamental.unlock、exchange.listing；按 unlock.json impact_score 取前 2：ENA 58、POWER 33；HYPE impact_score=0 因缺 pct_circ 单列；币种 6 个原因写入 brief）；事件页快照存 sources/,topics/C-20261005-03-今明解锁与上下架-ENA-POWER/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-03,research,researching,researching,"research.md 写入 ENA 解锁口径（Tokenomist/看板）、POWER 10/6 00:00 解锁 21,597,305.70（CMC 分项，与白皮书月数不符）、HYPE 10/6 08:00 9,916,666、币安 PROMPT/PUMPBTC/1000000BOB 永续 10/5 17:00 下架；Binance/OKX/Bitget/Upbit 10/5–10/6 无新上币；Bybit API 403",topics/C-20261005-03-今明解锁与上下架-ENA-POWER/research.md
+2026-10-05T17:21:18+08:00,C-20261005-03,status,researching,drafting,写入正文（汉字 360）、配图方案、来源清单、自查清单；未发布,topics/C-20261005-03-今明解锁与上下架-ENA-POWER/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-03,status,drafting,reviewing,测试批次样稿完成，交用户评审质量；未选平台、未发布,topics/C-20261005-03-今明解锁与上下架-ENA-POWER/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-03,review,reviewing,reviewing,review.md 填写发布前自查，含空节「发布后 24 小时互动数据（基线）」,topics/C-20261005-03-今明解锁与上下架-ENA-POWER/review.md
+2026-10-05T17:21:18+08:00,C-20261005-04,create,,inbox,"创建选题：单币快评 ETH 老地址 10/5 向 Coinbase 充值 13,330 枚（今日测试批次 3 篇之 3）",topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-04,status,inbox,researching,填写 brief（主小类 onchain.whale，副小类 structure.exchange_flow、security.phishing；filter 7 分；ENA 已是 02/03 主条目故取其余最高分 ETH，备选 ENA Safe 动向/HYPE 回购）；链上记录快照存 sources/,topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/brief.md
+2026-10-05T17:21:18+08:00,C-20261005-04,research,researching,researching,"research.md 写入三笔核心交易与 Coinbase 44 归集、充值地址 20 笔历史（大额 5 笔合计 50,130 枚）、余额 1,484.39 枚、4 个地址投毒地址 13 笔零头、两家快讯身份说法矛盾（待核）",topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/research.md
+2026-10-05T17:21:18+08:00,C-20261005-04,status,researching,drafting,写入正文（汉字 390）、配图方案（资金流向图+历史时间轴）、来源清单、自查清单；未发布,topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-04,status,drafting,reviewing,测试批次样稿完成，交用户评审质量；未选平台、未发布,topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/draft.md
+2026-10-05T17:21:18+08:00,C-20261005-04,review,reviewing,reviewing,review.md 填写发布前自查，含空节「发布后 24 小时互动数据（基线）」,topics/C-20261005-04-单币快评-ETH远古地址充值Coinbase/review.md
+2026-10-05T17:21:23+08:00,SYSTEM,edit,,,index.md 新增 C-20261005-02、C-20261005-03、C-20261005-04 三行（状态 reviewing，测试批次未发布）；系统文件无改动,index.md
+2026-10-05T22:01:55+08:00,C-20261005-05,create,,inbox,创建选题：ENA 解锁决策辅助稿（示范帖，新模板）,topics/C-20261005-05-ENA解锁决策辅助稿/brief.md
+2026-10-05T22:01:55+08:00,C-20261005-05,status,inbox,researching,填写 brief（主小类 calendar.unlock；用户反馈后采用决策辅助五段结构）,topics/C-20261005-05-ENA解锁决策辅助稿/brief.md
+2026-10-05T22:01:55+08:00,C-20261005-05,research,researching,researching,"research.md：复核解锁口径与 Safe 三笔转账；CoinGecko 7d/现价窗口（9/28 22:00→10/5 08:00/15:00→21:58）与相对 BTC pp；StablecoinX 8-K",topics/C-20261005-05-ENA解锁决策辅助稿/research.md
+2026-10-05T22:01:55+08:00,C-20261005-05,status,researching,drafting,写入正文（汉字 432）、配图方案、来源清单、自查清单；未发布,topics/C-20261005-05-ENA解锁决策辅助稿/draft.md
+2026-10-05T22:01:55+08:00,C-20261005-05,status,drafting,reviewing,示范样稿完成，交用户评审；未选平台、未发布,topics/C-20261005-05-ENA解锁决策辅助稿/draft.md
+2026-10-05T22:01:55+08:00,C-20261005-05,review,reviewing,reviewing,review.md 填写发布前自查,topics/C-20261005-05-ENA解锁决策辅助稿/review.md
+2026-10-05T22:01:55+08:00,SYSTEM,edit,,,新增 templates/决策辅助短讯.md 并登记 templates/README.md 与 README.md；filter.md/README 写入成稿须含走势与伴生信号规则,templates/决策辅助短讯.md
+2026-10-05T22:01:55+08:00,SYSTEM,edit,,,index.md 新增 C-20261005-05 行（状态 reviewing）,index.md
+2026-10-05T23:50:05+08:00,C-20261005-06,create,,reviewing,"测试数据价值型贴文5篇立项并成稿（解锁/永续/下架/销毁/非农威科夫），状态 reviewing",topics/C-20261005-06-测试数据价值型贴文5篇/
+2026-10-05T23:50:05+08:00,C-20261005-06,draft,,reviewing,draft.md 写入 5 篇测试贴文（结构：方向预期+逻辑链+信号后/历史+验证失效）,topics/C-20261005-06-测试数据价值型贴文5篇/draft.md
+2026-10-05T23:50:05+08:00,C-20261005-06,review,reviewing,reviewing,review.md 发布前自查（未发布）,topics/C-20261005-06-测试数据价值型贴文5篇/review.md
+2026-10-05T23:50:05+08:00,SYSTEM,edit,,,升级 templates/决策辅助短讯.md 为方向预期+逻辑链结构；filter.md/README.md 写入交易所视角规则行；templates/README 同步,templates/决策辅助短讯.md
+2026-10-05T23:50:05+08:00,SYSTEM,edit,,,index.md 新增 C-20261005-06 行（状态 reviewing）,index.md
+2026-10-05T23:50:41+08:00,C-20261005-06,fix,reviewing,reviewing,帖5 Test 低点 3385→3390（不得低于 Spring 3388）,topics/C-20261005-06-测试数据价值型贴文5篇/draft.md
+2026-10-06T00:00:14+08:00,C-20261005-06,add_image,,,"帖5 威科夫逻辑图 exports/帖5-非农ETH15m威科夫.png（1600x900）+ draft 点睛句/配图节；模板补配图规则",topics/C-20261005-06-测试数据价值型贴文5篇/exports/帖5-非农ETH15m威科夫.png
+2026-10-06T19:21:56+08:00,C-20261006-01,create,,researching,新建 ETH 真实数据决策稿选题（brief/sources）,topics/C-20261006-01-ETH真实数据决策稿/brief.md
+2026-10-06T19:21:56+08:00,C-20261006-01,research,researching,drafting,"Binance 现货 K 线 + OKX 衍生品 + Farside/SoSoValue ETF + Prysm 发布页；原始数据存 sources/",topics/C-20261006-01-ETH真实数据决策稿/research.md
+2026-10-06T19:21:56+08:00,C-20261006-01,draft,drafting,reviewing,正文 547 汉字（初稿；中性偏空｜弱｜24h），待核 2 条,topics/C-20261006-01-ETH真实数据决策稿/draft.md
+2026-10-06T19:21:56+08:00,C-20261006-01,add_image,,,逻辑图 ETH-逻辑图.png（1600x900，1h 真实 K 线 38 根）,topics/C-20261006-01-ETH真实数据决策稿/exports/ETH-逻辑图.png
+2026-10-06T19:21:56+08:00,C-20261006-01,review,reviewing,reviewing,review.md 发布前自查（未发布；OI +3.6% 更正为 +3.5%）,topics/C-20261006-01-ETH真实数据决策稿/review.md
+2026-10-06T19:21:56+08:00,SYSTEM,edit,,,index.md 新增 C-20261006-01 行（状态 reviewing）,index.md
+2026-10-06T19:22:33+08:00,C-20261006-01,edit,reviewing,reviewing,衍生品数据移入「信号之后发生了什么」段（按用户结构），汉字 575,topics/C-20261006-01-ETH真实数据决策稿/draft.md
+2026-10-06T22:26:47+08:00,C-20261006-02,create,,researching,创建选题：BR 今日上涨原因与技术面（用户需求，附 1h 截图存 sources/）,topics/C-20261006-02-BR上涨原因与技术面/brief.md
+2026-10-06T22:26:47+08:00,C-20261006-02,research,researching,drafting,标的识别 $BR=Bedrock；Bitget/Gate/MEXC/Bithumb/CoinGecko/Binance 现货 BTC 数据截至 10-06 22:22；催化 Bithumb 韩元盘 15:52 公告/18:00 开盘；Binance fapi 451、Bybit 403、Bithumb 公告页 403,topics/C-20261006-02-BR上涨原因与技术面/research.md
+2026-10-06T22:26:47+08:00,C-20261006-02,draft,drafting,reviewing,正文 599 汉字（中性偏多｜弱｜24h），待核 3 条,topics/C-20261006-02-BR上涨原因与技术面/draft.md
+2026-10-06T22:26:47+08:00,C-20261006-02,add_image,,,逻辑图 BR-逻辑图.png（1600x900，Bitget 1h 真实 K 线 59 根）,topics/C-20261006-02-BR上涨原因与技术面/exports/BR-逻辑图.png
+2026-10-06T22:26:47+08:00,C-20261006-02,review,reviewing,reviewing,review.md 发布前自查（未发布；文件时间戳按 mtime 校正）,topics/C-20261006-02-BR上涨原因与技术面/review.md
+2026-10-06T22:26:47+08:00,SYSTEM,edit,,,index.md 新增 C-20261006-02 行（状态 reviewing）,index.md
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"新增 tools/coin_data.py（单币数据卡，锁定数据源自动降级；测试 BR/ETH/SOL 及 --skip 降级链 OKX/Gate/binance.vision 均通过）",tools/coin_data.py
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"新增 tools/coin_news.py（锁定快讯源 N1–N4 一次检索；测试 BR/ETH/SOL 通过）",tools/coin_news.py
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"新增 tools/logic_chart.py + tools/spec_example.json（1600x900 逻辑图一次出图；测试 BR/ETH 通过）",tools/logic_chart.py
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"sources.md 新增「快讯消息源（锁定）」N1–N4 与「数据源（锁定）」（用户 2026-10-06 授权锁定），原有各节不动",sources.md
+2026-10-06T23:08:56+08:00,SYSTEM,create,,,"新增 playbooks/单币决策稿.md（快评/深度两档，5 步，预算规则）",playbooks/单币决策稿.md
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"README.md 新增固化流程节与目录；templates/README.md 加配套流程；filter.md 加锁定源例外一行",README.md
+2026-10-06T23:08:56+08:00,SYSTEM,edit,,,"index.md 系统文件表更新 sources/filter/README/templates README，新增 playbook 与 3 个 tools 行",index.md
+2026-10-06T23:11:27+08:00,C-20261006-02,research,reviewing,reviewing,追加 research §11「上所前资金与信息源」：链上 14,990 笔转账（rpc-bsc.48.club）未见公告前 Bithumb 钱包准备；疑似 Bithumb 新地址 0x49f3 首笔充值 16:51:24；12:27 Gate→0xc882 4.03M BR 判为例行调拨（推测）；Bithumb 近 30 天上币样本 n=6；信息源时延表；draft 未改,topics/C-20261006-02-BR上涨原因与技术面/research.md
+2026-10-06T23:48:58+08:00,C-20261006-02,edit,reviewing,reviewing,按用户 23:47 反馈改版：主因 Bithumb 上所占正文约 64%（含时间线/韩元价/充币挂卖/近 30 天 6 例样本/二手研究），次要负费率 1 句，技术面 1 句；汉字约 440；逻辑图侧卡改为主因/次要/价位并重出；模板与 playbook 新增主因优先规则,topics/C-20261006-02-BR上涨原因与技术面/draft.md
+2026-10-07T22:47:22+08:00,C-20261007-01,create,,reviewing,BTC大跌(油价→清算)+解锁影响快评及逻辑图,topics/C-20261007-01-BTC大跌与解锁影响/draft.md
+2026-10-07T22:47:49+08:00,C-20261007-01,fix,reviewing,reviewing,技术面价位方向与 EMA 矛盾修正；ENA 读法改为跑输最少,draft.md
+2026-10-08T21:41:11+08:00,C-20261008-01,create,,reviewing,BTC晚间跌破昨日低点快评：主因反抽失败第二脚，ETF流出为伴生；逻辑图；未发布,topics/C-20261008-01-BTC跌破昨日低点/draft.md
+2026-10-08T21:45:36+08:00,C-20261008-01,fix,reviewing,reviewing,标题改为现价82,026/低点81,766，83,666标明是反抽高点,draft.md
+2026-10-11T10:30:28+08:00,C-20261011-01,create,,reviewing,DOS解锁后不跌反涨快评：主因线性解锁7.3%当小时放量+3.6%，事件后相对BTC+11pp；逻辑图；未发布,topics/C-20261011-01-DOS解锁后不跌反涨/draft.md
+2026-10-12T08:49:15+08:00,C-20261012-01,create,,researching,"MSCI Non-Operating Companies 咨询影响评估：时间线核对+JPM流出换算+BTC传导+定价；状态 researching",topics/C-20261012-01-MSCI审查MSTR影响/research.md
+2026-10-12T22:52:50+08:00,C-20261012-02,create,,reviewing,"UB解锁占流通12.5%快评：主因高占比抛压，事件后相对BTC-9.9pp；覆盖周报3.13%旧口径；逻辑图；未发布",topics/C-20261012-02-UB解锁行情/draft.md
+2026-10-13T22:15:36+08:00,C-20261013-01,create,,reviewing,"BLUR平台风险双杀快评：主因前端弃用+Upbit关注停充，事件后相对BTC-36pp；逻辑图；未发布",topics/C-20261013-01-BLUR平台风险/draft.md
+2026-10-13T22:27:24+08:00,C-20261013-02,create,,reviewing,"STX Bitcoin L2轮动快评：主因L2叙事+放量两段，事件后相对BTC-7.6pp，追高风险高；逻辑图；未发布",topics/C-20261013-02-STX比特币L2轮动/draft.md
+2026-10-16T13:54:00+08:00,C-20261016-01,create,,reviewing,"SOL巨鲸+ETF流出快评：主因二次抛售叠净流出但盘面吸收，偏空弱；逻辑图；未发布",topics/C-20261016-01-SOL巨鲸抛售与ETF流出/draft.md
+2026-10-16T13:54:32+08:00,C-20261016-01,revise,reviewing,reviewing,"按批判四点改第2版：白话结论+砍术语+写死读者+删历史占位",topics/C-20261016-01-SOL巨鲸抛售与ETF流出/draft.md
+2026-10-16T13:56:26+08:00,C-20261016-01,revise,reviewing,reviewing,"按鹏飞拍删文末待核与免责声明；结构暂作模板",topics/C-20261016-01-SOL巨鲸抛售与ETF流出/draft.md
+2026-10-16T17:21:18+08:00,SYSTEM,taxonomy,,,收存用户14大类选题taxonomy（md+json），待按类补模板,topic-taxonomy.md
+2026-10-16T22:37:56+08:00,C-20261016-02,create,,reviewing,"author:资讯创作官 STRK解锁前后运营文案：透支冲高+投票回马+今天卖消息；逻辑图；未发布",topics/C-20261016-02-STRK解锁前后行情/draft.md
+2026-10-16T22:46:30+08:00,SYSTEM,template,,,锁模板解锁异动短讯（看板unlock异动）；占位事件批量对比,templates/解锁异动短讯.md
+2026-10-16T22:47:30+08:00,SYSTEM,template,,,登记涨跌幅榜经典原因可复用决策辅助短讯点评,templates/README.md
+2026-10-19T21:34:54+08:00,C-20261019-01,create,,reviewing,"author:资讯创作官 UB解锁后7日持续承压回顾：占流通12.5%大额砸盘，线索−16.6%/相对BTC−14.7pp/低点−22.9%；逻辑图；未发布",topics/C-20261019-01-UB解锁后持续承压/draft.md
+2026-10-21T08:07:28+08:00,C-20261021-01,create,,reviewing,"author:资讯创作官 BR解锁先涨后砸：D-1约+53%/提前+57.6%，解锁后短窗−8.9%/相对BTC−10.2pp；逻辑图；线索 unlock_tracker 2026-10-14_2026-10-21+手递；未发布",topics/C-20261021-01-BR解锁先涨后砸/draft.md
