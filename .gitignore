@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+content-os/duanzi/config/runtime.json
+content-os/duanzi/exports/
+content-os/duanzi/directions/*/inbox/*.json

@@ -46,6 +46,10 @@
     ├── memory/                        # lessons / style_notes（跨轮学习）
     ├── inbox/ drafts/ published/ runs/
     └── scripts/
+└── web/                               # 段子产线 Web 控制台（FastAPI + Vite）
+    ├── README.md
+    ├── backend/
+    └── frontend/
 ```
 
 ## 模板工作流（Content OS）
@@ -68,7 +72,17 @@ inbox → researching → drafting → reviewing → ready → published → arc
 - `templates/解锁异动短讯.md` — 解锁看板异动
 - `playbooks/单币决策稿.md` + `tools/coin_data.py` / `coin_news.py` / `logic_chart.py` — 单币快评与逻辑图
 
-**段子产线（duanzi）** 与资讯 `topics/` 分离：四方向配置见 `duanzi/config/directions.yaml`，成稿模板见 `duanzi/templates/段子成稿.md`，各方向示例草稿在 `duanzi/directions/*/drafts/`。
+**段子产线（duanzi）** 与资讯 `topics/` 分离：四方向配置见 `duanzi/config/directions.yaml`，成稿模板见 `duanzi/templates/段子成稿.md`，各方向示例草稿在 `duanzi/directions/*/drafts/`。**Web 控制台**见仓库根目录 [`web/README.md`](web/README.md)，可在浏览器中推进进料→成稿→自检→待发状态机（发布仍须人工确认，不代发社交平台）。
+
+## Web 控制台（段子流水线）
+
+本地启动步骤摘要：
+
+1. 终端 A：`cd web/backend && pip install -r requirements.txt && uvicorn app.main:app --reload --port 8000`
+2. 终端 B：`cd web/frontend && npm install && npm run dev`
+3. 打开 http://127.0.0.1:5173 — 选择方向、跑进料/去重/成稿、编辑草稿、查看/累加 `stats/daily.csv`
+
+模型：**Cursor Pro API** 为主（`CURSOR_API_KEY` 环境变量），**Ollama** 为备（`config/runtime.json`，勿提交密钥）。详见 [`web/README.md`](web/README.md)。
 
 ## 无限工作模式（Infinite Work Mode）
 
@@ -85,6 +99,7 @@ inbox → researching → drafting → reviewing → ready → published → arc
 
 | 你想… | 打开 |
 |--------|------|
+| **用浏览器跑段子流水线** | [`web/README.md`](web/README.md)（`npm run dev` + `uvicorn`） |
 | 了解全套规则 | [`content-os/README.md`](content-os/README.md) |
 | 选模板写稿 | [`content-os/templates/README.md`](content-os/templates/README.md) |
 | 跑单币决策稿 | [`content-os/playbooks/单币决策稿.md`](content-os/playbooks/单币决策稿.md) |
